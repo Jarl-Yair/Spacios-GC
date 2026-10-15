@@ -357,7 +357,7 @@ body {
     font-weight: 600;
 }
 
-/*SERVICIOS*/
+/*SERVICIOS DE LEASING*/
 .texto-central {
     text-align: center;
     max-width: 800px;
@@ -406,7 +406,6 @@ body {
     transition: transform 0.4s ease;
 }
 
-/* El borde de color degradado */
 .card-neon::before {
     content: "";
     position: absolute;
@@ -418,7 +417,6 @@ body {
     transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* El resplandor de fondo */
 .card-neon::after {
     content: "";
     position: absolute;
@@ -450,7 +448,6 @@ body {
     transition: color 0.3s, transform 0.3s;
 }
 
-/*EFECTOS AL PASAR EL RATON*/
 .card-neon:hover {
     transform: translateY(-10px);
 }
@@ -469,7 +466,7 @@ body {
     transform: rotate(180deg);
 }
 
-/*LOGISTICA Y MANTENIMIENTO*/
+/*LOGISTICA Y MANTENIMIENTO */
 .logistica-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -578,7 +575,6 @@ body {
     font-size: 18px;
 }
 
-/* Variación Frontal para Mantenimiento */
 .matto-front {
     background-color: var(--bg-card);
     border: 1px solid var(--glass-border);
@@ -724,6 +720,7 @@ body {
     background: var(--bg-card);
     padding: 60px 0;
     overflow: hidden;
+    width: 100%;
 }
 
 .marquee-header {
@@ -741,7 +738,6 @@ body {
     display: flex;
     width: max-content;
     animation: marquee 20s linear infinite;
-    gap: 30px;
 }
 
 .marquee-item {
@@ -782,11 +778,12 @@ body {
         transform: translateX(-50%);
     }
 }
-.marquee-inner :hover{
-   animation-play-state: paused; 
+
+.marquee-inner:hover {
+    animation-play-state: paused;
 }
 
-/*PROCESO DE CONTRATACIÓN*/
+/*PROCESO DE CONTRATACION */
 .text-center {
     text-align: center;
 }
@@ -943,7 +940,7 @@ body {
     text-decoration: underline;
 }
 
-/*FOOTER Y ALIANZAS*/
+/*FOOTER CEMSA Y ALIANZAS*/
 .footer-premium {
     background-color: var(--bg-card);
     padding-top: 60px;
@@ -1046,6 +1043,7 @@ body {
 .alianzas-col h4::after {
     left: 50%;
     transform: translateX(-50%);
+    background-color: var(--color-cyan);
 }
 
 .red-alianzas {
@@ -1080,7 +1078,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     background-color: #fff;
-    transition: transform 0.3s ease, filter 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .alianza-logo img {
@@ -1106,59 +1104,59 @@ body {
 }
 
 .glow-rojo {
-    box-shadow: 0 0 20px rgba(255, 50, 50, 0.7);
+    box-shadow: 0 0 20px rgba(255, 50, 50, 0.5);
 }
 
 .glow-azul {
-    box-shadow: 0 0 20px rgba(54, 94, 168, 0.8);
-}
-
-.glow-negro {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px rgba(54, 94, 168, 0.5);
 }
 
 .glow-blanco {
-    box-shadow: 0 0 30px rgb(254, 253, 253);
-}
-
-.glow-naranja {
-    box-shadow: 0 0 20px rgba(255, 140, 0, 0.8);
-}
-
-.glow-rosa {
-    box-shadow: 0 0 20px rgba(255, 20, 147, 0.7);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
 .glow-gris {
-    box-shadow: 0 0 20px rgba(88, 95, 88, 0.7);
+    box-shadow: 0 0 30px rgba(200, 200, 200, 0.5);
+}
+
+.glow-naranja {
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+}
+
+.glow-rosa {
+    box-shadow: 0 0 20px rgba(255, 20, 147, 0.5);
 }
 
 .glow-verde {
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.966);
+    box-shadow: 0 0 20px rgba(50, 205, 50, 0.5);
 }
 
 .glow-celeste {
-    box-shadow: 0 0 20px rgba(135, 206, 235, 0.8);
+    box-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
 }
 
 .glow-cian {
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+}
+
+.glow-amarillo {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
 }
 
 .footer-creditos {
-    background-color: #1a1a1a;
-    color: #aaa;
+    background-color: #050a18;
+    color: var(--text-muted);
     text-align: center;
     padding: 20px;
     font-size: 14px;
 }
 
 .footer-creditos a {
-    color: var(--color-blanco);
+    color: var(--color-cyan);
     text-decoration: none;
 }
 
-/*WHASTAPP Y COOKIE */
+/*WHASTAPP Y COOKIES*/
 .btn-whatsapp-flotante {
     position: fixed;
     width: 60px;
@@ -1275,10 +1273,10 @@ body {
     transform: translateY(-2px);
 }
 
-/*RESPONSIVE*/
+/*RESPONSIVO*/
 @media (max-width: 950px) {
 
-    /* Menu Hamburguesa */
+    /*Menu hamburguesa*/
     .menu-toggle {
         display: block;
         z-index: 1001;
@@ -1310,7 +1308,7 @@ body {
         text-align: center;
     }
 
-    /* Secciones Generales */
+    /*Secciones generales*/
     .hero-content h1 {
         font-size: 45px;
     }
@@ -1324,7 +1322,6 @@ body {
         text-align: center;
     }
 
-    /* Adaptar las cuadrículas forzadas a 2 columnas en Tablet */
     .equipo-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -1351,7 +1348,7 @@ body {
         display: none;
     }
 
-    /* Formularios */
+    /*Formularios*/
     .form-row {
         flex-direction: column;
         gap: 15px;
@@ -1361,7 +1358,7 @@ body {
         padding: 30px 20px;
     }
 
-    /* Footer CEMSA Movil */
+    /*Footer para celular*/
     .footer-main {
         text-align: center;
         gap: 30px;
@@ -1409,8 +1406,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
-    /* Adaptar todo a 1 sola columna en Celulares pequeños */
     .equipo-grid {
         grid-template-columns: 1fr;
     }
