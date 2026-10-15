@@ -16,6 +16,12 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,7 +30,6 @@ body {
     font-family: var(--font-principal);
     background-color: var(--bg-dark);
     color: var(--text-light);
-    overflow-x: hidden;
 }
 
 /*UTILIDADES GLOBALES*/
@@ -1427,5 +1432,33 @@ body {
 
     .proceso-grid {
         grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 35px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .titulo-seccion {
+        font-size: 28px;
+    }
+
+    .texto-central h2 {
+        font-size: 28px;
+    }
+
+    .somos-texto h2 {
+        font-size: 28px;
+    }
+
+    .razones-texto h2 {
+        font-size: 28px;
+    }
+
+    .contenedor {
+        padding: 60px 15px;
     }
 }
