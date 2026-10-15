@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacioss GC</title>
+    <link rel="shortcut icon" href="img/Spacioss GC.jpg" type="image/x-icon">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tipografia Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!--Iconos FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--Animaciones AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6E192JTTC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-H6E192JTTC');
+    </script>
+</head>
+
+<body>
+
+    <!--HEADER FLOTANT-->
+    <header class="header-glass" id="main-header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="img/Logo Horizontal.png" alt="Logo Spacioss GC">
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav-links" id="nav-menu">
+                <a href="#home">Inicio</a>
+                <a href="#conocenos">Conócenos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#formulario" class="btn-contacto-nav">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--HERO-->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>PRESTACIÓN DE SERVICIOS</h1>
+            <p class="hero-subtitle">Soluciones integrales para satisfacer un mercado cada vez más exigente.</p>
+
+            <div class="hero-iconos">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="img/Mobility-icon.png" alt="Leasing">
+                    <h3>Leasing</h3>
+                </div>
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="img/Logistic-icon.png" alt="Cadena de Suministro">
+                    <h3>Cadena de Suministro</h3>
+                </div>
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="img/Transport-icon.png" alt="Transporte">
+                    <h3>Transporte</h3>
+                </div>
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="img/Build-icon.png" alt="Construcción">
+                    <h3>Construcción y Mtto.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONOCENOS-->
+    <section id="conocenos" class="seccion-oscura">
+        <div class="contenedor">
+            <!-- Somos -->
+            <div class="somos-grid">
+                <div class="somos-img" data-aos="fade-right">
+                    <img src="img/Spacioss_GC-PNG.png" alt="Logo Spacioss GC">
+                </div>
+                <div class="somos-texto" data-aos="fade-left">
+                    <h2>Empresa mexicana especializada en la prestación de servicios integrales</h2>
+                    <p>SPACIOSS GC es una empresa innovadora dedicada al leasing de muebles e inmuebles enfocada en
+                        diferentes mercados, diseñada para satisfacer las necesidades cambiantes de un mercado cada vez
+                        más exigente.</p>
+                </div>
+            </div>
+
+            <!--Mision y Vision-->
+            <div class="mv-grid">
+                <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>Misión</h3>
+                    <p>Brindar espacios y soluciones que mejoren la calidad de vida de las personas, impulsando el
+                        desarrollo sostenible a través de servicios inmobiliarios, de cadena de suministro, transporte y
+                        construcción de excelencia.</p>
+                </div>
+                <div class="glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h3>Visión</h3>
+                    <p>Ser la empresa líder y de confianza en el sector de arrendamiento, cadena de suministro,
+                        transporte y construcción, reconocida por nuestra excelencia, innovación constante y compromiso
+                        con la sostenibilidad.</p>
+                </div>
+            </div>
+
+            <!--Que nos distingue-->
+            <div class="distincion-box" data-aos="zoom-in">
+                <h3>¿Qué nos distingue?</h3>
+                <ul class="distincion-lista">
+                    <li><i class="fa-solid fa-check-circle"></i> Igualdad y eficiencia</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Flexibilidad operativa</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Transparencia total</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Amplia gama de productos</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Servicios 100% personalizados</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--EQUIPO-->
+    <section class="seccion-equipo">
+        <div class="contenedor">
+            <h2 class="titulo-seccion" data-aos="fade-up">Conoce a nuestro equipo</h2>
+            <div class="equipo-grid">
+                <div class="perfil-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="img/profile_juan.agustin.matus.png" alt="Phd. Juan Agustín Matus Mercado">
+                    <h4>Phd. Juan Agustín Matus Mercado</h4>
+                    <p>Dirección Estratégica</p>
+                </div>
+                <div class="perfil-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/profile_juan.webp" alt="Phd. Juan Rámon García Castañeda">
+                    <h4>Phd. Juan Rámon García Castañeda</h4>
+                    <p>Dirección Operativa</p>
+                </div>
+                <div class="perfil-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="img/profile_maritrinireyes.png" alt="Lic. Maritrini Reyes Cortes">
+                    <h4>Lic. Maritrini Reyes Cortes</h4>
+                    <p>Administración</p>
+                </div>
+                <div class="perfil-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="img/profile_alejandro.sanchez.png" alt="Lic. Alejandro Sanchez Lezama">
+                    <h4>Lic. Alejandro Sanchez Lezama</h4>
+                    <p>Comercial</p>
+                </div>
+                <div class="perfil-card" data-aos="fade-up" data-aos-delay="500">
+                    <img src="img/profile_gerson.chavez.png" alt="Arq. Gerson Chávez Sánchez">
+                    <h4>Arq. Gerson Chávez Sánchez</h4>
+                    <p>Proyectos e Infraestructura</p>
+                </div>
+                <div class="perfil-card" data-aos="fade-up" data-aos-delay="600">
+                    <img src="img/profile_johnny.webp" alt="Lic. Johhny Ursua Mancilla">
+                    <h4>Lic. Johhny Ursua Mancilla</h4>
+                    <p>Logística y Transporte</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SERVICIOS-->
+    <section id="servicios" class="seccion-leasing">
+        <div class="contenedor">
+            <div class="texto-central" data-aos="fade-up">
+                <h2>Arrendamiento de bienes muebles e inmuebles</h2>
+                <p>En SPACIOSS te ofrecemos soluciones integrales para adquirir, rentar o administrar activos clave para
+                    tu operación.</p>
+                <h3 class="resaltado">"Contratos claros y flexibles"</h3>
+            </div>
+
+            <div class="cards-neon-container" data-aos="fade-up">
+                <div class="card-neon">
+                    <p class="heading">Vehículos</p>
+                    <p>Eléctricos e híbridos</p>
+                    <p>Camionetas y furgonetas</p>
+                    <p>Maquinaria de construcción</p>
+                </div>
+
+                <div class="card-neon">
+                    <p class="heading">Oficinas</p>
+                    <p>Sillas y escritorios</p>
+                    <p>Mesas de junta</p>
+                    <p>Servidores e impresoras</p>
+                </div>
+
+                <div class="card-neon">
+                    <p class="heading">Turístico</p>
+                    <p>Casas vacacionales</p>
+                    <p>Apartamentos premium</p>
+                    <p>Espacios para eventos</p>
+                </div>
+
+                <div class="card-neon">
+                    <p class="heading">Eventos</p>
+                    <p>Salones corporativos</p>
+                    <p>Eventos sociales</p>
+                    <p>Producciones visuales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--LOGISTICA-->
+    <section class="seccion-logistica">
+        <div class="contenedor">
+            <h2 class="titulo-seccion" data-aos="fade-up">La logística 3PL (Third Party Logistics)</h2>
+
+            <div class="logistica-grid">
+                <!-- 1PL -->
+                <div class="flip-card-pro" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <img src="img/transporte2.webp" alt="1PL Transporte">
+                            <div class="flip-title">1PL: Transporte</div>
+                        </div>
+                        <div class="flip-back">
+                            <h4>1PL (First Party)</h4>
+                            <ul>
+                                <li>Entregas door-to-door.</li>
+                                <li>Transporte seguro de materiales peligrosos.</li>
+                                <li>Unidades exclusivas por cliente/ruta.</li>
+                                <li>Flota versátil según carga.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--2PL-->
+                <div class="flip-card-pro" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <img src="img/almacen1.webp" alt="2PL Almacenamiento">
+                            <div class="flip-title">2PL: Almacenamiento</div>
+                        </div>
+                        <div class="flip-back">
+                            <h4>2PL (Second Party)</h4>
+                            <ul>
+                                <li>Bodegas con seguridad especializada.</li>
+                                <li>Control de temperatura y rotación.</li>
+                                <li>Recepción y resguardo.</li>
+                                <li>Control de existencias en tiempo real.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--3PL-->
+                <div class="flip-card-pro" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <img src="img/proveedor1.jpg" alt="3PL Gestión">
+                            <div class="flip-title">3PL: Gestión de Inventario</div>
+                        </div>
+                        <div class="flip-back">
+                            <h4>3PL (Third Party)</h4>
+                            <ul>
+                                <li>Coordinación demanda/producción.</li>
+                                <li>Sistemas WMS/TMS/ERP.</li>
+                                <li>Devoluciones y reprocesos.</li>
+                                <li>KPI logísticos para optimizar costos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ETAPAS DE CADENA DE SUMINISTRO-->
+    <section class="seccion-cadena">
+        <div class="contenedor">
+            <h2 class="titulo-seccion" data-aos="fade-up">Etapas para Cadena de Suministros</h2>
+
+            <div class="cadena-pasos">
+                <div class="paso-item" data-aos="fade-right" data-aos-delay="0">
+                    <div class="paso-icon"><img src="img/aprovechamiento.png" alt="Aprovechamiento"></div>
+                    <h4>Aprovechamiento</h4>
+                    <p>Obtención de la materia prima y procesos que la rodean.</p>
+                </div>
+                <div class="paso-item" data-aos="fade-right" data-aos-delay="150">
+                    <div class="paso-icon"><img src="img/factory-icon.png" alt="Transformación"></div>
+                    <h4>Transformación</h4>
+                    <p>Transformación de la materia prima en productos finales.</p>
+                </div>
+                <div class="paso-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="paso-icon"><img src="img/almacen-icon.png" alt="Almacenaje"></div>
+                    <h4>Almacenaje</h4>
+                    <p>Recepción, organización y resguardo en condiciones óptimas.</p>
+                </div>
+                <div class="paso-item" data-aos="fade-right" data-aos-delay="450">
+                    <div class="paso-icon"><img src="img/entrega-icon.png" alt="Entrega"></div>
+                    <h4>Entrega</h4>
+                    <p>Transporte y entrega hasta el punto final de venta o cliente.</p>
+                </div>
+            </div>
+
+            <h3 class="quote-cadena" data-aos="fade-up">"Tu inventario, siempre en el lugar correcto, en el momento
+                justo."</h3>
+        </div>
+    </section>
+
+    <!--POR QUE ELEGIRNOS Y MANTENIMIENTO-->
+    <section class="seccion-mantenimiento">
+        <div class="contenedor">
+
+            <!--Razones-->
+            <div class="razones-grid" data-aos="fade-up">
+                <div class="razones-texto">
+                    <h2>¿Por qué elegir SPACIOSS para tu logística y transporte?</h2>
+                    <p>Ofrecemos confianza, seguridad y compromiso. Nuestra infraestructura moderna, personal calificado
+                        y soluciones
+                        flexibles nos hacen tu aliado ideal.</p>
+                    <ul class="razones-lista-clean">
+                        <li><i class="fa-solid fa-check-circle"></i> Expertos confiables y calificados</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Mantenimientos preventivos y correctivos</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Seguridad garantizada</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Planes de mantenimiento personalizados</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Cobertura en principales aduanas</li>
+                    </ul>
+                </div>
+                <div class="razones-img">
+                    <img src="img/razon1.jpeg" alt="Mantenimiento">
+                </div>
+            </div>
+
+            <!--Flip cards de mantenimiento-->
+            <h2 class="titulo-seccion mt-100" data-aos="fade-up">"Mantenimiento preventivo y correctivo con garantía de
+                calidad."</h2>
+            <div class="matto-grid">
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/carpinteria icono.png" alt="Carpintería">
+                            <h3>Carpintería</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Diseño y fabricación de mobiliario a medida.</li>
+                                <li>Instalación de puertas y ventanas de madera.</li>
+                                <li>Revestimientos de madera.</li>
+                                <li>Pisos de madera o laminados.</li>
+                                <li>Carpintería fina y acabados.</li>
+                                <li>Reparación de mobiliario y elementos de madera.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/ventana.png" alt="Ventanas">
+                            <h3>Ventanas y Puertas</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Instalación de puertas y ventanas nuevas.</li>
+                                <li>Reparación de puertas y ventanas existentes</li>
+                                <li>Mantenimiento y acabados.</li>
+                                <li>Modernización o automatización.</li>
+                                <li>Aluminio, herrería, madera y cristal templado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/plomeria.png" alt="Plomería">
+                            <h3>Plomería</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Instalación de redes hidráulicas y sanitarias.</li>
+                                <li>Reparación de fugas y filtraciones.</li>
+                                <li>Cambio o reubicación de muebles sanitarios.</li>
+                                <li>Destape de tuberías y drenajes.</li>
+                                <li>Instalación de grifería y accesorios.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/electricidad.png" alt="Electricidad">
+                            <h3>Electricidad</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Instalación y renovación de instalaciones eléctricas.</li>
+                                <li>Reubicación o instalación de contactos, apagadores y luminarias.</li>
+                                <li>Instalación de sistemas de iluminación.</li>
+                                <li>Diagnóstico y reparación de fallas eléctricas.</li>
+                                <li>Canalización para datos y telecomunicaciones.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/icono de la seguridad ymodalidad.png" alt="Seguridad">
+                            <h3>Seguridad y Movilidad</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Iluminación de seguridad.</li>
+                                <li>Sistemas de alarmas y sensores.</li>
+                                <li>Instalación de puertas y cerraduras de seguridad.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/Remodelacion.png" alt="Remodelación">
+                            <h3>Remodelación</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Demoliciones y adecuaciones estructurales.</li>
+                                <li>Diseño y planificación de remodelación.</li>
+                                <li>Obra civil y albañilería.</li>
+                                <li>Instalación de plafon y tablaroca.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/acabados.png" alt="Acabados">
+                            <h3>Pintura y Acabados</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Aplicación de pintura interior y exterior.</li>
+                                <li>Texturizados y recubrimientos especiales.</li>
+                                <li>Preparación de superficies.</li>
+                                <li>Pintura decorativa y de diseño.</li>
+                                <li>Pintura y acabados en herrería o carpintería.</li>
+                                <li>Señalización y pintura institucional.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-pro" data-aos="zoom-in">
+                    <div class="flip-inner">
+                        <div class="flip-front matto-front">
+                            <img src="img/icono de reparacion.png" alt="Reparación">
+                            <h3>Reparación General</h3>
+                        </div>
+                        <div class="flip-back matto-back">
+                            <ul>
+                                <li>Reparación de muros, techos y plafones.</li>
+                                <li>Cambio y nivelación de pisos.</li>
+                                <li>Reparaciones hidráulicas y sanitarias.</li>
+                                <li>Rehabilitación de mobiliario fijo.</li>
+                                <li>Pintura y acabados en herrería o carpintería.</li>
+                                <li>Señalización y pintura institucional.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--CARRUSEL-->
+    <section class="seccion-carrusel">
+        <h2 class="marquee-header">Espacios óptimos, materiales premium</h2>
+        <div class="carousel-wrapper">
+            <div class="marquee-inner">
+                <div class="marquee-item">
+                    <img src="img/casa1.png" alt="Diseño">
+                    <h3>Diseño personalizado</h3>
+                    <p>Diseños que se adaptan a tu estilo de vida.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa2.png" alt="Fabricación">
+                    <h3>Fabricación a medida</h3>
+                    <p>Cada pieza según tus especificaciones exactas.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa3.jpg" alt="Optimización">
+                    <h3>Optimización de espacio</h3>
+                    <p>Soluciones para optimizar cada rincón.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa4.jpg" alt="Materiales">
+                    <h3>Materiales de calidad</h3>
+                    <p>Alta calidad basada en tus necesidades.</p>
+                </div>
+
+                <!-- Duplicados-->
+                <div class="marquee-item">
+                    <img src="img/casa1.png" alt="Diseño">
+                    <h3>Diseño personalizado</h3>
+                    <p>Diseños que se adaptan a tu estilo de vida.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa2.png" alt="Fabricación">
+                    <h3>Fabricación a medida</h3>
+                    <p>Cada pieza según tus especificaciones exactas.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa3.jpg" alt="Optimización">
+                    <h3>Optimización de espacio</h3>
+                    <p>Soluciones para optimizar cada rincón.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa4.jpg" alt="Materiales">
+                    <h3>Materiales de calidad</h3>
+                    <p>Alta calidad basada en tus necesidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PROCESO DE CONTRATACION-->
+    <section class="seccion-contratacion">
+        <div class="contenedor text-center">
+            <h2 data-aos="fade-up" style="font-size: 38px; margin-bottom: 50px;">Proceso de contratación</h2>
+
+            <div class="proceso-grid" data-aos="zoom-in">
+                <div class="proceso-step">
+                    <div class="step-number">1</div>
+                    <h3>Contáctanos</h3>
+                    <p>Cotiza con nosotros por medio de WhatsApp o nuestras redes sociales.</p>
+                </div>
+                <div class="proceso-step">
+                    <div class="step-number">2</div>
+                    <h3>Necesidades</h3>
+                    <p>Describe lo que necesitas para ofrecerte la mejor planeación posible.</p>
+                </div>
+                <div class="proceso-step">
+                    <div class="step-number">3</div>
+                    <h3>Cotización</h3>
+                    <p>Te enviamos tu cotización en menos de 30 minutos por correo y WhatsApp.</p>
+                </div>
+                <div class="proceso-step">
+                    <div class="step-number">4</div>
+                    <h3>Programación</h3>
+                    <p>Programamos la cita con un mínimo de 16 horas de anticipación a tu medida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FORMULARIO DE CONTACTO-->
+    <section id="formulario" class="seccion-formulario">
+        <div class="contenedor">
+            <div class="form-grid">
+                <div class="form-info" data-aos="fade-right">
+                    <img src="img/Spacioss_GC-PNG.png" alt="Logo Spacioss">
+                    <h2>SPACIOSS GC</h2>
+                    <p>Déjanos tus datos y un asesor especializado se pondrá en contacto contigo a la brevedad.</p>
+                </div>
+                <div class="form-caja" data-aos="fade-left">
+                    <h2>CONTÁCTANOS</h2>
+                    <form action="https://formsubmit.co/cemsa.sistemas8@outlook.com" method="POST" class="form-moderno">
+                        <div class="form-row">
+                            <input type="text" name="NOMBRE" placeholder="Nombre completo" required>
+                            <select name="SERVICIO" required>
+                                <option value="" disabled selected>Selecciona un servicio...</option>
+                                <option value="Mantenimiento">Mantenimiento a Edificios</option>
+                                <option value="Remodelaciones">Remodelaciones de inmuebles</option>
+                                <option value="Transporte">Transporte</option>
+                                <option value="Almacenaje">Almacenaje</option>
+                                <option value="Leasing">Leasing</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <input type="tel" name="TELEFONO" placeholder="Teléfono" required>
+                            <input type="text" name="EMPRESA" placeholder="Empresa (Opcional)">
+                        </div>
+                        <div class="form-row">
+                            <input type="email" name="EMAIL" placeholder="Correo electrónico" required>
+                            <input type="text" name="ASUNTO" placeholder="Asunto">
+                        </div>
+                        <textarea name="MENSAJE" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                        <div class="checkbox-privacidad">
+                            <input type="checkbox" required id="terminos-form">
+                            <label for="terminos-form">
+                                Acepto el tratamiento de mis datos conforme al <a href="#" target="_blank">Aviso de
+                                    Privacidad</a>.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-cyan">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER ESTILO CEMSA-->
+    <footer class="footer-premium">
+        <div class="footer-main">
+            <!--Columna de informacion-->
+            <div class="footer-col">
+                <h4>Pestañas</h4>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#conocenos">Conócenos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#formulario">Contáctanos</a></li>
+                </ul>
+            </div>
+
+            <!--Columna de Visitanos-->
+            <div class="footer-col">
+                <h4>Visítanos</h4>
+                <ul class="footer-contacto">
+                    <li><a href="#" style="color: #bbb; text-decoration: none;"><i class="fa-solid fa-location-dot"></i>
+                            Calle Tabla La Reyna S/N, Col. Ejido Santiago Teyahualco, Tultepec, Edo. Méx.</a></li>
+                </ul>
+            </div>
+
+            <!--Columna de contacto-->
+            <div class="footer-col">
+                <h4>Contáctanos</h4>
+                <ul class="footer-contacto">
+                    <li><a href="tel:5579169463" style="color: #bbb; text-decoration: none;"><i
+                                class="fa-solid fa-phone"></i> 55 7916 9463</a></li>
+                    <li><a href="tel:5541771477" style="color: #bbb; text-decoration: none;"><i
+                                class="fa-solid fa-phone"></i> 55 4177 1477</a></li>
+                </ul>
+            </div>
+
+            <!--Columna de redes sociales-->
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank"
+                        class="social-fb"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alianzas Estilo CEMSA -->
+        <div class="footer-col alianzas-col">
+            <h4>NUESTRO GRUPO Y ALIANZAS</h4>
+            <div class="red-alianzas">
+                <div class="alianzas-fila-superior">
+                    <div class="alianzas-bloque">
+                        <a href="https://www.facebook.com/TiendasUrbanCoatings" target="_blank"
+                            class="alianza-logo glow-rojo"><img src="IMG/B1.webp" loading="lazy" alt="Urban"></a>
+                        <a href="https://www.facebook.com/CEMSA-Recubrimientos-103351411241119" target="_blank"
+                            class="alianza-logo glow-azul"><img src="IMG/B2.webp" loading="lazy" alt="CEMSA"></a>
+                        <a href="https://www.facebook.com/jarlserv?mibextid=ZbWKwL" target="_blank"
+                            class="alianza-logo glow-negro"><img src="IMG/B3.webp" loading="lazy" alt="Jarl"></a>
+                    </div>
+                    <div class="alianzas-centro">
+                        <a href="http://www.cemsamx.com/G.html" target="_blank"
+                            class="alianza-logo alianza-principal glow-blanco"><img src="IMG/GC22.webp" loading="lazy"
+                                alt="GC Grupo CEMSA"></a>
+                    </div>
+                    <div class="alianzas-bloque">
+                        <a href="https://www.facebook.com/nazareosiap/?mibextid=ZbWKwL" target="_blank"
+                            class="alianza-logo glow-naranja"><img src="IMG/B4.webp" loading="lazy" alt="Nazareos"></a>
+                        <a href="https://www.facebook.com/nazareosac1" target="_blank"
+                            class="alianza-logo glow-rosa"><img src="IMG/B5.webp" loading="lazy" alt="Nazareos AC"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100068549594726" target="_blank"
+                            class="alianza-logo glow-gris"><img src="IMG/B6.webp" loading="lazy" alt="E&C"></a>
+                    </div>
+                </div>
+                <div class="alianzas-fila-inferior">
+                    <a href="https://www.facebook.com/EPP-107946225493285" target="_blank"
+                        class="alianza-logo glow-verde"><img src="IMG/B7.webp" loading="lazy" alt="EPP"></a>
+                    <a href="https://www.facebook.com/KumonSanJuanTultepec" target="_blank"
+                        class="alianza-logo glow-celeste"><img src="IMG/B8.webp" loading="lazy" alt="Kumon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank"
+                        class="alianza-logo glow-cian"><img src="IMG/Spacioss.png" loading="lazy" alt="Spacioss"></a>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer-creditos">
+        <p>© Designed by <a href="http://www.jarl.com.mx" target="_blank"
+                style="color: #00d6d6; font-weight: bold;">JARL</a>: <b>Ing. Yair Maldonado / Ing. Alexis García /
+                Tec. Arleth Arista / Tec. Belén Eretza</b> - SPACIOSS GC 2026 Todos los Derechos Reservados.</p>
+    </div>
+    </footer>
+
+    <!-- BOTON WHATSAPP FLOTANTE -->
+    <a href="https://api.whatsapp.com/send?phone=5541771477&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20acerca%20de%20sus%20servicios."
+        class="btn-whatsapp-flotante" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- AVISO DE COOKIES UIVERSE -->
+    <div id="aviso-cookies" class="cookie-card">
+        <svg class="cookie-icon" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+            <path d="M8.5 8.5v.01"></path>
+            <path d="M16 15.5v.01"></path>
+            <path d="M12 12v.01"></path>
+            <path d="M11 17v.01"></path>
+            <path d="M7 14v.01"></path>
+        </svg>
+        <span class="cookie-title">Uso de cookies</span>
+        <p class="cookie-desc">Utilizamos cookies para mejorar tu experiencia en SPACIOSS GC. Conoce nuestra <a href="#"
+                target="_blank">Política de Privacidad</a>.</p>
+        <div class="cookie-actions">
+            <button id="btn-aceptar-cookies" class="cookie-btn btn-allow">Aceptar</button>
+            <button id="btn-rechazar-cookies" class="cookie-btn btn-decline">Rechazar</button>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/arrow.js"></script>
+
+    <script>
+        // Inicializar Animaciones AOS
+        AOS.init({ once: false, offset: 100 });
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            // 1. Header con Glassmorphism al hacer scroll
+            const header = document.getElementById("main-header");
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
+
+            // 2. Menu hamburguesa para celular
+            const menuToggle = document.getElementById('mobile-menu');
+            const navMenu = document.getElementById('nav-menu');
+            const linksMenu = navMenu.querySelectorAll('a');
+
+            if (menuToggle && navMenu) {
+                menuToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('activo');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-xmark');
+                });
+
+                linksMenu.forEach(link => {
+                    link.addEventListener('click', () => {
+                        navMenu.classList.remove('activo');
+                        const icon = menuToggle.querySelector('i');
+                        icon.classList.add('fa-bars');
+                        icon.classList.remove('fa-xmark');
+                    });
+                });
+            }
+
+            // 3. Logica de la tarjeta de cookies de Uiverse
+            const avisoCookies = document.getElementById('aviso-cookies');
+            const btnAceptar = document.getElementById('btn-aceptar-cookies');
+            const btnRechazar = document.getElementById('btn-rechazar-cookies');
+
+            if (!localStorage.getItem('spacioss_cookies')) {
+                setTimeout(() => avisoCookies.classList.add('mostrar'), 1000);
+            }
+
+            const ocultarCookies = () => {
+                avisoCookies.classList.remove('mostrar');
+                localStorage.setItem('spacioss_cookies', 'true');
+            };
+
+            if (btnAceptar) btnAceptar.addEventListener('click', ocultarCookies);
+            if (btnRechazar) btnRechazar.addEventListener('click', ocultarCookies);
+        });
+    </script>
+</body>
+
+</html>
