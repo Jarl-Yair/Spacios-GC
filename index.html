@@ -9,17 +9,19 @@
     <link rel="shortcut icon" href="img/Spacioss GC.jpg" type="image/x-icon">
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Tipografia Poppins-->
+    <!--Pre conexiones-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">    
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 
     <!--Iconos FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!--Animaciones AOS-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6E192JTTC"></script>
@@ -33,11 +35,11 @@
 
 <body>
 
-    <!--HEADER FLOTANT-->
+    <!--HEADER-->
     <header class="header-glass" id="main-header">
         <div class="nav-container">
             <a href="#home" class="logo">
-                <img src="img/Logo Horizontal.png" alt="Logo Spacioss GC">
+                <img src="img/Logo Horizontal.png" alt="Logo Spacioss GC" fetchpriority="high">
             </a>
             <div class="menu-toggle" id="mobile-menu">
                 <i class="fa-solid fa-bars"></i>
@@ -505,323 +507,314 @@
             </div>
         </div>
     </section>
-            <!--CARRUSEL -->
-            <section class="seccion-carrusel">
-                <h2 class="marquee-header">Espacios óptimos, materiales premium</h2>
-                <div class="carousel-wrapper">
-                    <div class="marquee-inner">
-                        <div class="marquee-item">
-                            <img src="img/casa1.png" alt="Diseño">
-                            <h3>Diseño personalizado</h3>
-                            <p>Diseños que se adaptan a tu estilo de vida.</p>
-                        </div>
-                        <div class="marquee-item">
-                            <img src="img/casa2.png" alt="Fabricación">
-                            <h3>Fabricación a medida</h3>
-                            <p>Cada pieza según tus especificaciones exactas.</p>
-                        </div>
-                        <div class="marquee-item">
-                            <img src="img/casa3.jpg" alt="Optimización">
-                            <h3>Optimización de espacio</h3>
-                            <p>Soluciones para optimizar cada rincón.</p>
-                        </div>
-                        <div class="marquee-item">
-                            <img src="img/casa4.jpg" alt="Materiales">
-                            <h3>Materiales de calidad</h3>
-                            <p>Alta calidad basada en tus necesidades.</p>
-                        </div>
-
-                        <!-- Duplicados-->
-                        <div class="marquee-item">
-                            <img src="img/casa1.png" alt="Diseño">
-                            <h3>Diseño personalizado</h3>
-                            <p>Diseños que se adaptan a tu estilo de vida.</p>
-                        </div>
-                        <div class="marquee-item">
-                            <img src="img/casa2.png" alt="Fabricación">
-                            <h3>Fabricación a medida</h3>
-                            <p>Cada pieza según tus especificaciones exactas.</p>
-                        </div>
-                        <div class="marquee-item">
-                            <img src="img/casa3.jpg" alt="Optimización">
-                            <h3>Optimización de espacio</h3>
-                            <p>Soluciones para optimizar cada rincón.</p>
-                        </div>
-                        <div class="marquee-item">
-                            <img src="img/casa4.jpg" alt="Materiales">
-                            <h3>Materiales de calidad</h3>
-                            <p>Alta calidad basada en tus necesidades.</p>
-                        </div>
-                    </div>
+    <!--CARRUSEL -->
+    <section class="seccion-carrusel">
+        <h2 class="marquee-header">Espacios óptimos, materiales premium</h2>
+        <div class="carousel-wrapper">
+            <div class="marquee-inner">
+                <div class="marquee-item">
+                    <img src="img/casa1.png" alt="Diseño">
+                    <h3>Diseño personalizado</h3>
+                    <p>Diseños que se adaptan a tu estilo de vida.</p>
                 </div>
-            </section>
-
-            <!--PROCESO DE CONTRATACION-->
-            <section class="seccion-contratacion">
-                <div class="contenedor text-center">
-                    <h2 data-aos="fade-up" style="font-size: 38px; margin-bottom: 50px;">Proceso de contratación</h2>
-
-                    <div class="proceso-grid" data-aos="zoom-in">
-                        <div class="proceso-step">
-                            <div class="step-number">1</div>
-                            <h3>Contáctanos</h3>
-                            <p>Cotiza con nosotros por medio de WhatsApp o nuestras redes sociales.</p>
-                        </div>
-                        <div class="proceso-step">
-                            <div class="step-number">2</div>
-                            <h3>Necesidades</h3>
-                            <p>Describe lo que necesitas para ofrecerte la mejor planeación posible.</p>
-                        </div>
-                        <div class="proceso-step">
-                            <div class="step-number">3</div>
-                            <h3>Cotización</h3>
-                            <p>Te enviamos tu cotización en menos de 30 minutos por correo y WhatsApp.</p>
-                        </div>
-                        <div class="proceso-step">
-                            <div class="step-number">4</div>
-                            <h3>Programación</h3>
-                            <p>Programamos la cita con un mínimo de 16 horas de anticipación a tu medida.</p>
-                        </div>
-                    </div>
+                <div class="marquee-item">
+                    <img src="img/casa2.png" alt="Fabricación">
+                    <h3>Fabricación a medida</h3>
+                    <p>Cada pieza según tus especificaciones exactas.</p>
                 </div>
-            </section>
-            <!--FORMULARIO DE CONTACTO-->
-            <section id="formulario" class="seccion-formulario">
-                <div class="contenedor">
-                    <div class="form-grid">
-                        <div class="form-info" data-aos="fade-right">
-                            <img src="img/Spacioss_GC-PNG.png" alt="Logo Spacioss">
-                            <h2>SPACIOSS GC</h2>
-                            <p>Déjanos tus datos y un asesor especializado se pondrá en contacto contigo a la brevedad.
-                            </p>
-                        </div>
-                        <div class="form-caja" data-aos="fade-left">
-                            <h2>CONTÁCTANOS</h2>
-                            <form action="https://formsubmit.co/cemsa.sistemas8@outlook.com" method="POST"
-                                class="form-moderno">
-                                <div class="form-row">
-                                    <input type="text" name="NOMBRE" placeholder="Nombre completo" required>
-                                    <select name="SERVICIO" required>
-                                        <option value="" disabled selected>Selecciona un servicio...</option>
-                                        <option value="Mantenimiento">Mantenimiento a Edificios</option>
-                                        <option value="Remodelaciones">Remodelaciones de inmuebles</option>
-                                        <option value="Transporte">Transporte</option>
-                                        <option value="Almacenaje">Almacenaje</option>
-                                        <option value="Leasing">Leasing</option>
-                                    </select>
-                                </div>
-                                <div class="form-row">
-                                    <input type="tel" name="TELEFONO" placeholder="Teléfono" required>
-                                    <input type="text" name="EMPRESA" placeholder="Empresa (Opcional)">
-                                </div>
-                                <div class="form-row">
-                                    <input type="email" name="EMAIL" placeholder="Correo electrónico" required>
-                                    <input type="text" name="ASUNTO" placeholder="Asunto">
-                                </div>
-                                <textarea name="MENSAJE" placeholder="Escribe tu mensaje aquí..." required></textarea>
-
-                                <div class="checkbox-privacidad">
-                                    <input type="checkbox" required id="terminos-form">
-                                    <label for="terminos-form">
-                                        Acepto el tratamiento de mis datos conforme al <a href="#" target="_blank">Aviso
-                                            de
-                                            Privacidad</a>.
-                                    </label>
-                                </div>
-
-                                <button type="submit" class="btn-cyan">Enviar Mensaje</button>
-                            </form>
-                        </div>
-                    </div>
+                <div class="marquee-item">
+                    <img src="img/casa3.jpg" alt="Optimización">
+                    <h3>Optimización de espacio</h3>
+                    <p>Soluciones para optimizar cada rincón.</p>
                 </div>
-            </section>
-
-            <!--FOOTER ESTILO CEMSA-->
-            <footer class="footer-premium">
-                <div class="footer-main">
-                    <!--Columna de informacion-->
-                    <div class="footer-col">
-                        <h4>Pestañas</h4>
-                        <ul>
-                            <li><a href="#home">Inicio</a></li>
-                            <li><a href="#conocenos">Conócenos</a></li>
-                            <li><a href="#servicios">Servicios</a></li>
-                            <li><a href="#formulario">Contáctanos</a></li>
-                        </ul>
-                    </div>
-
-                    <!--Columna de Visitanos-->
-                    <div class="footer-col">
-                        <h4>Visítanos</h4>
-                        <ul class="footer-contacto">
-                            <li><a href="#" style="color: #bbb; text-decoration: none;"><i
-                                        class="fa-solid fa-location-dot"></i>
-                                    Calle Tabla La Reyna S/N, Col. Ejido Santiago Teyahualco, Tultepec, Edo. Méx.</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!--Columna de contacto-->
-                    <div class="footer-col">
-                        <h4>Contáctanos</h4>
-                        <ul class="footer-contacto">
-                            <li><a href="tel:5579169463" style="color: #bbb; text-decoration: none;"><i
-                                        class="fa-solid fa-phone"></i> 55 7916 9463</a></li>
-                            <li><a href="tel:5541771477" style="color: #bbb; text-decoration: none;"><i
-                                        class="fa-solid fa-phone"></i> 55 4177 1477</a></li>
-                        </ul>
-                    </div>
-
-                    <!--Columna de redes sociales-->
-                    <div class="footer-col">
-                        <h4>Síguenos</h4>
-                        <div class="footer-social">
-                            <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank"
-                                class="social-fb"><i class="fa-brands fa-facebook-f"></i></a>
-                        </div>
-                    </div>
+                <div class="marquee-item">
+                    <img src="img/casa4.jpg" alt="Materiales">
+                    <h3>Materiales de calidad</h3>
+                    <p>Alta calidad basada en tus necesidades.</p>
                 </div>
 
-                <!-- Alianzas Estilo CEMSA -->
-                <div class="footer-col alianzas-col">
-                    <h4>NUESTRO GRUPO Y ALIANZAS</h4>
-                    <div class="red-alianzas">
-                        <div class="alianzas-fila-superior">
-                            <div class="alianzas-bloque">
-                                <a href="https://www.facebook.com/TiendasUrbanCoatings" target="_blank"
-                                    class="alianza-logo glow-rojo"><img src="img/B1.webp" loading="lazy"
-                                        alt="Urban"></a>
-                                <a href="https://www.facebook.com/CEMSA-Recubrimientos-103351411241119" target="_blank"
-                                    class="alianza-logo glow-azul"><img src="img/B2.webp" loading="lazy"
-                                        alt="CEMSA"></a>
-                                <a href="https://www.facebook.com/jarlserv?mibextid=ZbWKwL" target="_blank"
-                                    class="alianza-logo glow-negro"><img src="img/B3.webp" loading="lazy"
-                                        alt="Jarl"></a>
-                            </div>
-                            <div class="alianzas-centro">
-                                <a href="http://www.cemsamx.com/G.html" target="_blank"
-                                    class="alianza-logo alianza-principal glow-blanco"><img src="img/GC22.webp"
-                                        loading="lazy" alt="GC Grupo CEMSA"></a>
-                            </div>
-                            <div class="alianzas-bloque">
-                                <a href="https://www.facebook.com/nazareosiap/?mibextid=ZbWKwL" target="_blank"
-                                    class="alianza-logo glow-naranja"><img src="img/B4.webp" loading="lazy"
-                                        alt="Nazareos"></a>
-                                <a href="https://www.facebook.com/nazareosac1" target="_blank"
-                                    class="alianza-logo glow-rosa"><img src="img/B5.webp" loading="lazy"
-                                        alt="Nazareos AC"></a>
-                                <a href="https://www.facebook.com/profile.php?id=100068549594726" target="_blank"
-                                    class="alianza-logo glow-gris"><img src="img/B6.webp" loading="lazy" alt="E&C"></a>
-                            </div>
-                        </div>
-                        <div class="alianzas-fila-inferior">
-                            <a href="https://www.facebook.com/EPP-107946225493285" target="_blank"
-                                class="alianza-logo glow-verde"><img src="img/B7.webp" loading="lazy" alt="EPP"></a>
-                            <a href="https://www.facebook.com/KumonSanJuanTultepec" target="_blank"
-                                class="alianza-logo glow-celeste"><img src="img/B8.webp" loading="lazy" alt="Kumon"></a>
-                            <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank"
-                                class="alianza-logo glow-cian"><img src="img/Spacioss.png" loading="lazy"
-                                    alt="Spacioss"></a>
-                        </div>
-                    </div>
+                <!-- Duplicados-->
+                <div class="marquee-item">
+                    <img src="img/casa1.png" alt="Diseño">
+                    <h3>Diseño personalizado</h3>
+                    <p>Diseños que se adaptan a tu estilo de vida.</p>
                 </div>
-
-                <div class="footer-creditos">
-                    <p>© Designed by <a href="http://www.jarl.com.mx" target="_blank"
-                            style="color: #00d6d6; font-weight: bold;">JARL</a>: <b>Ing. Yair Maldonado / Ing. Alexis
-                            García /
-                            Tec. Arleth Arista / Tec. Belén Eretza</b> - SPACIOSS GC 2026 Todos los Derechos Reservados.
-                    </p>
+                <div class="marquee-item">
+                    <img src="img/casa2.png" alt="Fabricación">
+                    <h3>Fabricación a medida</h3>
+                    <p>Cada pieza según tus especificaciones exactas.</p>
                 </div>
-            </footer>
-
-            <!-- BOTON WHATSAPP FLOTANTE -->
-            <a href="https://api.whatsapp.com/send?phone=5541771477&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20acerca%20de%20sus%20servicios."
-                class="btn-whatsapp-flotante" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
-
-            <!-- AVISO DE COOKIES UIVERSE -->
-            <div id="aviso-cookies" class="cookie-card">
-                <svg class="cookie-icon" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
-                    <path d="M8.5 8.5v.01"></path>
-                    <path d="M16 15.5v.01"></path>
-                    <path d="M12 12v.01"></path>
-                    <path d="M11 17v.01"></path>
-                    <path d="M7 14v.01"></path>
-                </svg>
-                <span class="cookie-title">Uso de cookies</span>
-                <p class="cookie-desc">Utilizamos cookies para mejorar tu experiencia en SPACIOSS GC. Conoce nuestra <a
-                        href="#" target="_blank">Política de Privacidad</a>.</p>
-                <div class="cookie-actions">
-                    <button id="btn-aceptar-cookies" class="cookie-btn btn-allow">Aceptar</button>
-                    <button id="btn-rechazar-cookies" class="cookie-btn btn-decline">Rechazar</button>
+                <div class="marquee-item">
+                    <img src="img/casa3.jpg" alt="Optimización">
+                    <h3>Optimización de espacio</h3>
+                    <p>Soluciones para optimizar cada rincón.</p>
+                </div>
+                <div class="marquee-item">
+                    <img src="img/casa4.jpg" alt="Materiales">
+                    <h3>Materiales de calidad</h3>
+                    <p>Alta calidad basada en tus necesidades.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- SCRIPTS -->
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script src="js/arrow.js"></script>
+    <!--PROCESO DE CONTRATACION-->
+    <section class="seccion-contratacion">
+        <div class="contenedor text-center">
+            <h2 data-aos="fade-up" style="font-size: 38px; margin-bottom: 50px;">Proceso de contratación</h2>
 
-            <script>
-                // Inicializar Animaciones AOS
-                AOS.init({ once: false, offset: 100 });
+            <div class="proceso-grid" data-aos="zoom-in">
+                <div class="proceso-step">
+                    <div class="step-number">1</div>
+                    <h3>Contáctanos</h3>
+                    <p>Cotiza con nosotros por medio de WhatsApp o nuestras redes sociales.</p>
+                </div>
+                <div class="proceso-step">
+                    <div class="step-number">2</div>
+                    <h3>Necesidades</h3>
+                    <p>Describe lo que necesitas para ofrecerte la mejor planeación posible.</p>
+                </div>
+                <div class="proceso-step">
+                    <div class="step-number">3</div>
+                    <h3>Cotización</h3>
+                    <p>Te enviamos tu cotización en menos de 30 minutos por correo y WhatsApp.</p>
+                </div>
+                <div class="proceso-step">
+                    <div class="step-number">4</div>
+                    <h3>Programación</h3>
+                    <p>Programamos la cita con un mínimo de 16 horas de anticipación a tu medida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FORMULARIO DE CONTACTO-->
+    <section id="formulario" class="seccion-formulario">
+        <div class="contenedor">
+            <div class="form-grid">
+                <div class="form-info" data-aos="fade-right">
+                    <img src="img/Spacioss_GC-PNG.png" alt="Logo Spacioss">
+                    <h2>SPACIOSS GC</h2>
+                    <p>Déjanos tus datos y un asesor especializado se pondrá en contacto contigo a la brevedad.
+                    </p>
+                </div>
+                <div class="form-caja" data-aos="fade-left">
+                    <h2>CONTÁCTANOS</h2>
+                    <form action="https://formsubmit.co/cemsa.sistemas8@outlook.com" method="POST" class="form-moderno">
+                        <div class="form-row">
+                            <input type="text" name="NOMBRE" placeholder="Nombre completo" required>
+                            <select name="SERVICIO" required>
+                                <option value="" disabled selected>Selecciona un servicio...</option>
+                                <option value="Mantenimiento">Mantenimiento a Edificios</option>
+                                <option value="Remodelaciones">Remodelaciones de inmuebles</option>
+                                <option value="Transporte">Transporte</option>
+                                <option value="Almacenaje">Almacenaje</option>
+                                <option value="Leasing">Leasing</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <input type="tel" name="TELEFONO" placeholder="Teléfono" required>
+                            <input type="text" name="EMPRESA" placeholder="Empresa (Opcional)">
+                        </div>
+                        <div class="form-row">
+                            <input type="email" name="EMAIL" placeholder="Correo electrónico" required>
+                            <input type="text" name="ASUNTO" placeholder="Asunto">
+                        </div>
+                        <textarea name="MENSAJE" placeholder="Escribe tu mensaje aquí..." required></textarea>
 
-                document.addEventListener("DOMContentLoaded", () => {
+                        <div class="checkbox-privacidad">
+                            <input type="checkbox" required id="terminos-form">
+                            <label for="terminos-form">
+                                Acepto el tratamiento de mis datos conforme al <a href="#" target="_blank">Aviso
+                                    de
+                                    Privacidad</a>.
+                            </label>
+                        </div>
 
-                    // 1. Header con Glassmorphism al hacer scroll
-                    const header = document.getElementById("main-header");
-                    window.addEventListener("scroll", () => {
-                        if (window.scrollY > 50) {
-                            header.classList.add("scrolled");
-                        } else {
-                            header.classList.remove("scrolled");
-                        }
-                    });
+                        <button type="submit" class="btn-cyan">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    // 2. Menu hamburguesa para celular
-                    const menuToggle = document.getElementById('mobile-menu');
-                    const navMenu = document.getElementById('nav-menu');
-                    const linksMenu = navMenu.querySelectorAll('a');
+    <!--FOOTER ESTILO CEMSA-->
+    <footer class="footer-premium">
+        <div class="footer-main">
+            <!--Columna de informacion-->
+            <div class="footer-col">
+                <h4>Pestañas</h4>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#conocenos">Conócenos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#formulario">Contáctanos</a></li>
+                </ul>
+            </div>
 
-                    if (menuToggle && navMenu) {
-                        menuToggle.addEventListener('click', () => {
-                            navMenu.classList.toggle('activo');
-                            const icon = menuToggle.querySelector('i');
-                            icon.classList.toggle('fa-bars');
-                            icon.classList.toggle('fa-xmark');
-                        });
+            <!--Columna de Visitanos-->
+            <div class="footer-col">
+                <h4>Visítanos</h4>
+                <ul class="footer-contacto">
+                    <li><a href="#" style="color: #bbb; text-decoration: none;"><i class="fa-solid fa-location-dot"></i>
+                            Calle Tabla La Reyna S/N, Col. Ejido Santiago Teyahualco, Tultepec, Edo. Méx.</a>
+                    </li>
+                </ul>
+            </div>
 
-                        linksMenu.forEach(link => {
-                            link.addEventListener('click', () => {
-                                navMenu.classList.remove('activo');
-                                const icon = menuToggle.querySelector('i');
-                                icon.classList.add('fa-bars');
-                                icon.classList.remove('fa-xmark');
-                            });
-                        });
-                    }
+            <!--Columna de contacto-->
+            <div class="footer-col">
+                <h4>Contáctanos</h4>
+                <ul class="footer-contacto">
+                    <li><a href="tel:5579169463" style="color: #bbb; text-decoration: none;"><i
+                                class="fa-solid fa-phone"></i> 55 7916 9463</a></li>
+                    <li><a href="tel:5541771477" style="color: #bbb; text-decoration: none;"><i
+                                class="fa-solid fa-phone"></i> 55 4177 1477</a></li>
+                </ul>
+            </div>
 
-                    // 3. Logica de la tarjeta de cookies de Uiverse
-                    const avisoCookies = document.getElementById('aviso-cookies');
-                    const btnAceptar = document.getElementById('btn-aceptar-cookies');
-                    const btnRechazar = document.getElementById('btn-rechazar-cookies');
+            <!--Columna de redes sociales-->
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank"
+                        class="social-fb"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
 
-                    if (!localStorage.getItem('spacioss_cookies')) {
-                        setTimeout(() => avisoCookies.classList.add('mostrar'), 1000);
-                    }
+        <!-- Alianzas Estilo CEMSA -->
+        <div class="footer-col alianzas-col">
+            <h4>NUESTRO GRUPO Y ALIANZAS</h4>
+            <div class="red-alianzas">
+                <div class="alianzas-fila-superior">
+                    <div class="alianzas-bloque">
+                        <a href="https://www.facebook.com/TiendasUrbanCoatings" target="_blank"
+                            class="alianza-logo glow-rojo"><img src="img/B1.webp" loading="lazy" alt="Urban"></a>
+                        <a href="https://www.facebook.com/CEMSA-Recubrimientos-103351411241119" target="_blank"
+                            class="alianza-logo glow-azul"><img src="img/B2.webp" loading="lazy" alt="CEMSA"></a>
+                        <a href="https://www.facebook.com/jarlserv?mibextid=ZbWKwL" target="_blank"
+                            class="alianza-logo glow-negro"><img src="img/B3.webp" loading="lazy" alt="Jarl"></a>
+                    </div>
+                    <div class="alianzas-centro">
+                        <a href="http://www.cemsamx.com/G.html" target="_blank"
+                            class="alianza-logo alianza-principal glow-blanco"><img src="img/GC22.webp" loading="lazy"
+                                alt="GC Grupo CEMSA"></a>
+                    </div>
+                    <div class="alianzas-bloque">
+                        <a href="https://www.facebook.com/nazareosiap/?mibextid=ZbWKwL" target="_blank"
+                            class="alianza-logo glow-naranja"><img src="img/B4.webp" loading="lazy" alt="Nazareos"></a>
+                        <a href="https://www.facebook.com/nazareosac1" target="_blank"
+                            class="alianza-logo glow-rosa"><img src="img/B5.webp" loading="lazy" alt="Nazareos AC"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100068549594726" target="_blank"
+                            class="alianza-logo glow-gris"><img src="img/B6.webp" loading="lazy" alt="E&C"></a>
+                    </div>
+                </div>
+                <div class="alianzas-fila-inferior">
+                    <a href="https://www.facebook.com/EPP-107946225493285" target="_blank"
+                        class="alianza-logo glow-verde"><img src="img/B7.webp" loading="lazy" alt="EPP"></a>
+                    <a href="https://www.facebook.com/KumonSanJuanTultepec" target="_blank"
+                        class="alianza-logo glow-celeste"><img src="img/B8.webp" loading="lazy" alt="Kumon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank"
+                        class="alianza-logo glow-cian"><img src="img/Spacioss.png" loading="lazy" alt="Spacioss"></a>
+                </div>
+            </div>
+        </div>
 
-                    const ocultarCookies = () => {
-                        avisoCookies.classList.remove('mostrar');
-                        localStorage.setItem('spacioss_cookies', 'true');
-                    };
+        <div class="footer-creditos">
+            <p>© Designed by <a href="http://www.jarl.com.mx" target="_blank"
+                    style="color: #00d6d6; font-weight: bold;">JARL</a>: <b>Ing. Yair Maldonado / Ing. Alexis
+                    García /
+                    Tec. Arleth Arista / Tec. Belén Eretza</b> - SPACIOSS GC 2026 Todos los Derechos Reservados.
+            </p>
+        </div>
+    </footer>
 
-                    if (btnAceptar) btnAceptar.addEventListener('click', ocultarCookies);
-                    if (btnRechazar) btnRechazar.addEventListener('click', ocultarCookies);
+    <!-- BOTON WHATSAPP FLOTANTE -->
+    <a href="https://api.whatsapp.com/send?phone=5541771477&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20acerca%20de%20sus%20servicios."
+        class="btn-whatsapp-flotante" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- AVISO DE COOKIES UIVERSE -->
+    <div id="aviso-cookies" class="cookie-card">
+        <svg class="cookie-icon" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+            <path d="M8.5 8.5v.01"></path>
+            <path d="M16 15.5v.01"></path>
+            <path d="M12 12v.01"></path>
+            <path d="M11 17v.01"></path>
+            <path d="M7 14v.01"></path>
+        </svg>
+        <span class="cookie-title">Uso de cookies</span>
+        <p class="cookie-desc">Utilizamos cookies para mejorar tu experiencia en SPACIOSS GC. Conoce nuestra <a href="#"
+                target="_blank">Política de Privacidad</a>.</p>
+        <div class="cookie-actions">
+            <button id="btn-aceptar-cookies" class="cookie-btn btn-allow">Aceptar</button>
+            <button id="btn-rechazar-cookies" class="cookie-btn btn-decline">Rechazar</button>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/arrow.js"></script>
+
+    <script>
+        // Inicializar Animaciones AOS
+        AOS.init({ once: false, offset: 100 });
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            // 1. Header con Glassmorphism al hacer scroll
+            const header = document.getElementById("main-header");
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
+
+            // 2. Menu hamburguesa para celular
+            const menuToggle = document.getElementById('mobile-menu');
+            const navMenu = document.getElementById('nav-menu');
+            const linksMenu = navMenu.querySelectorAll('a');
+
+            if (menuToggle && navMenu) {
+                menuToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('activo');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-xmark');
                 });
-            </script>
+
+                linksMenu.forEach(link => {
+                    link.addEventListener('click', () => {
+                        navMenu.classList.remove('activo');
+                        const icon = menuToggle.querySelector('i');
+                        icon.classList.add('fa-bars');
+                        icon.classList.remove('fa-xmark');
+                    });
+                });
+            }
+
+            // 3. Logica de la tarjeta de cookies de Uiverse
+            const avisoCookies = document.getElementById('aviso-cookies');
+            const btnAceptar = document.getElementById('btn-aceptar-cookies');
+            const btnRechazar = document.getElementById('btn-rechazar-cookies');
+
+            if (!localStorage.getItem('spacioss_cookies')) {
+                setTimeout(() => avisoCookies.classList.add('mostrar'), 1000);
+            }
+
+            const ocultarCookies = () => {
+                avisoCookies.classList.remove('mostrar');
+                localStorage.setItem('spacioss_cookies', 'true');
+            };
+
+            if (btnAceptar) btnAceptar.addEventListener('click', ocultarCookies);
+            if (btnRechazar) btnRechazar.addEventListener('click', ocultarCookies);
+        });
+    </script>
 </body>
 
 </html>
