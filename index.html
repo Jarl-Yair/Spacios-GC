@@ -18,7 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 
     <!--Iconos FontAwesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        media="print" onload="this.media='all'">
 
     <!--Animaciones AOS-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
@@ -677,7 +678,8 @@
             <div class="footer-col">
                 <h4>Síguenos</h4>
                 <div class="footer-social">
-                    <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank" class="social-fb" aria-label="Visitar nuestra página de Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61572248146579" target="_blank" class="social-fb"
+                        aria-label="Visitar nuestra página de Facebook"><i class="fa-brands fa-facebook-f"></i></a>
                 </div>
             </div>
         </div>
@@ -730,7 +732,9 @@
     </footer>
 
     <!-- BOTON WHATSAPP FLOTANTE -->
-    <a href="https://api.whatsapp.com/send?phone=5541771477&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20acerca%20de%20sus%20servicios." class="btn-whatsapp-flotante" target="_blank" aria-label="Escribir por WhatsApp">  <i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=5541771477&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20acerca%20de%20sus%20servicios."
+        class="btn-whatsapp-flotante" target="_blank" aria-label="Escribir por WhatsApp"> <i
+            class="fa-brands fa-whatsapp"></i></a>
 
     <!-- AVISO DE COOKIES UIVERSE -->
     <div id="aviso-cookies" class="cookie-card">
@@ -752,14 +756,15 @@
     </div>
 
     <!-- SCRIPTS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="js/arrow.js" defer></script>
 
     <script>
-        // Inicializar Animaciones AOS
-        AOS.init({ once: false, offset: 100 });
 
         document.addEventListener("DOMContentLoaded", () => {
+            // Inicializar Animaciones AOS
+            AOS.init({ once: false, offset: 100 });
+
 
             // 1. Header con Glassmorphism al hacer scroll
             const header = document.getElementById("main-header");
